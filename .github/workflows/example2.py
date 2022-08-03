@@ -9,7 +9,7 @@ def validateJsonFile(jsonFile):
         return False
     return True
 
-path_to_json = 'json/'
+path_to_json = '.github/workflows/json'
 
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 for index, js in enumerate(json_files):
